@@ -1,4 +1,1 @@
-# DPLAbot
-
-@DPLAbot[http://www.twitter.com/DPLAbot] is a Twitter bot that tweets links to random items located in the vast collections of the Digital Public Library of America.
-
+# DPLAbot[@DPLAbot](http://www.twitter.com/DPLAbot) is a Twitter bot that tweets links to random items located in the vast collections of the [Digital Public Library of America](http://dp.la), using the DPLA's API.The DPLA API has no means of calling up totally random items, so the bot first comes up with a random noun, then searches the DPLA using that noun. The result is a kind of "Surprise Me!" search function for the DPLA.DPLAbot requires two API keys:1. from Wordnik, the source of the random noun2. from the DPLAThe bot runs on node.js, a server-side Javascript engine. In addition to node, requires NPM and several dependencies, which you can install this way (on the command line):    npm install restler    npm install twit    npm install inflection
