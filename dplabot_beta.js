@@ -3,7 +3,7 @@ var sys = require('util'),
 var Twit = require('twit');
 var inflection = require( 'inflection' );
 
-// You need secret codes and tokens from dev.twitter.com Mkae sure your app is set up for Read/Write access
+// You need secret keys and tokens from dev.twitter.com. Make sure your app is set up for Read/Write access
 var T = new Twit({
   consumer_key:         '', 
   consumer_secret:      '',
