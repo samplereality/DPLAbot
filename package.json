@@ -1,0 +1,15 @@
+{
+  "name": "dplabot",
+  "scripts": {
+    "start": "dplabot.js"
+  },
+  "dependencies": {
+    "restler": "2.0.1",
+    "twit": "1.1.8",
+    "inflection": "1.2.6"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.6.x"
+  }
+}
